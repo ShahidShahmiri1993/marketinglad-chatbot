@@ -87,7 +87,7 @@
 
     if (!name || !email || !message) return alert('All fields are required.');
 
-    const res = await fetch('https://formspree.io/f/mnqewvpa', {
+    const res = await fetch('https://formspree.io/f/xzzrdodz', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ name, email, message })
